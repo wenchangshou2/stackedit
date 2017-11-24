@@ -12,5 +12,5 @@ RUN wget https://github.com/benweet/stackedit/archive/v5.2.4.tar.gz
 RUN tar -xzf v5.2.4.tar.gz
 
 WORKDIR  /stackedit-5.2.4 
-RUN npm build
+RUN npm install
 CMD npm start
