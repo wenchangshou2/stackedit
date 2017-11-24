@@ -1,6 +1,6 @@
 FROM node
 MAINTAINER CenturyLink
-EXPOSE 3000
+EXPOSE 8080
 
 RUN apt-get update
 RUN apt-get upgrade -y
